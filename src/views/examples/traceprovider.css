@@ -1,0 +1,143 @@
+.paymentCard {
+    box-shadow: 0 7px 14px 0 rgb(60 66 87 / 8%), 0 3px 6px 0 rgb(0 0 0 / 12%) !important;
+    border: 0;
+}
+
+.card-header {
+    background-color: #002434;
+    border: 0;
+    padding: .75rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-header p {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 700 !important;
+    margin-bottom: 0 !important;
+}
+
+.card-body label {
+    font-size: 12px;
+    color: #212529;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.card-header div {
+    width: 20px;
+    height: 20px;
+}
+
+.cards-visa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-bottom: 1rem;
+}
+
+.cards-visa i {
+    font-size: 15px;
+    margin-right: 4px;
+    color: #707070;
+}
+
+.stripe-text {
+    color: #5a5a5a;
+    font-size: 10px;
+}
+
+.stripe-text span {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.inputs-div {
+    width: 100%;
+    padding: 9.5px 14px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.inputs-div input:focus-visible {
+    outline: 0;
+}
+
+.inputs-div input {
+    font-size: 14px;
+}
+
+.inputs-div,
+.inputs-div input {
+    background: #FFFFFF;
+}
+
+.inputs-div input {
+    border: 0;
+    padding: 0;
+}
+
+.inputs-div_ input {
+    width: 100%;
+}
+
+.inputs-div .card-number {
+    width: calc(100% - 92px);
+}
+
+.inputs-div .card-expiry-month {
+    width: 29px;
+}
+
+.inputs-div .card-expiry-year {
+    width: 21px;
+    margin-left: 0px;
+}
+
+.inputs-div .card-cvc {
+    width: 34px;
+    margin-left: 6px;
+}
+
+.hide {
+    display: none;
+}
+
+table {
+    margin-bottom: 11px;
+}
+
+table th {
+    font-size: 13px
+}
+
+table td {
+    font-size: 14px
+}
+
+.paymentCard .my-account-content .default-btn {
+    width: 42% !important;
+    padding: 13px 20px;
+}
+
+.card-footer {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .inputs-div {
+        padding: 9px;
+    }
+
+    .paymentCard .my-account-content .default-btn {
+        width: 47% !important;
+        padding: 10.5px 15px 9.5px 15px;
+    }
+}
